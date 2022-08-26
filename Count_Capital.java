@@ -1,3 +1,12 @@
+/*
+Write a java program which accept string from user and count number of capital characters.
+
+Input : "Marvellous Multi OS"
+Output : 4
+
+ */
+
+
 import java.lang.*;
 import java.util.*;
 
