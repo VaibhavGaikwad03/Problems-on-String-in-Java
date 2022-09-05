@@ -1,30 +1,28 @@
 /*
-Write a java program which accept string from user and count number of capital characters.
+Write a program which accepts string from the user and count number of capital letters
 
 Input : "Marvellous Multi OS"
 Output : 4
-
- */
-
+*/
 
 import java.lang.*;
 import java.util.*;
 
-
-class StringX   
+class StringX
 {
-    public int Count_Cap(String str)
+    public int CountCapital(String str)
     {
-        int iCounter = 0;
+        int i = 0, iCounter = 0;
         char cArr[] = str.toCharArray();
 
-        for(int i = 0; i < cArr.length; i++)
+        for(i = 0; i < cArr.length; i++)
         {
             if((cArr[i] >= 'A') && (cArr[i] <= 'Z'))
             {
                 iCounter++;
             }
         }
+
         return iCounter;
     }
 }
@@ -33,17 +31,15 @@ class Count_Capital
 {
     public static void main(String args[])
     {
-        Scanner sobj = new Scanner(System.in);
         int iRet = 0;
+        Scanner sobj = new Scanner(System.in);
 
-        System.out.println("Enter the String : ");
+        System.out.println("Enter the string : ");
         String str = sobj.nextLine();
 
-        StringX strx = new StringX();
+        StringX strobj = new StringX();
+        iRet = strobj.CountCapital(str);
 
-        iRet = strx.Count_Cap(str);
-
-        System.out.println("Count of capital letters is : "+iRet);
-
+        System.out.println("Count of capital letters is : "+iRet);   
     }
 }
