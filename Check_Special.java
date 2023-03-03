@@ -8,7 +8,7 @@ Output : It is special character
 Input : d
 Output : It is not a special character
 */
-
+ 
 
 import java.lang.*;
 import java.util.*;
