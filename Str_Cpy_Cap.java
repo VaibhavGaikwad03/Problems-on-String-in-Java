@@ -31,7 +31,7 @@ class StringX
         return strret;
     }
 }
-
+ 
 public class Str_Cpy_Cap 
 {
     public static void main(String aegs[])
