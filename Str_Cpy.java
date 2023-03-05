@@ -7,7 +7,7 @@ Output : "Marvellous Multi OS"
 
 import java.lang.*;
 import java.util.*;
-
+ 
 class StringX
 {
     public String strCpy(String str)
