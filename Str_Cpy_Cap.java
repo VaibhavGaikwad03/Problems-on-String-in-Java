@@ -8,7 +8,7 @@ Output : "MARVELLOUS INFOSYSTEMS"
 import java.lang.*;
 import java.util.*;
 
-class StringX
+class StringX 
 {
     public String cpyStrCap(String str)
     {
